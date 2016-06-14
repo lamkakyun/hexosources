@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Of Lamkakyun</title>
+  <subtitle>Welcome to my blog, I am a PHPer</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lamkakyun.github.io/"/>
+  <updated>2016-06-13T17:11:13.306Z</updated>
+  <id>http://lamkakyun.github.io/</id>
+  
+  <author>
+    <name>Lamkakyun</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用hexo和github-pages创建博客</title>
+    <link href="http://lamkakyun.github.io/2016/06/14/%E4%BD%BF%E7%94%A8hexo%E5%92%8Cgithub-pages%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://lamkakyun.github.io/2016/06/14/使用hexo和github-pages创建博客/</id>
+    <published>2016-06-13T16:46:38.000Z</published>
+    <updated>2016-06-13T17:11:13.306Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;install-hexo&quot;&gt;&lt;a href=&quot;#install-hexo&quot; class=&quot;headerlink&quot; title=&quot;install hexo&quot;&gt;&lt;/a&gt;install hexo&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install hexo-cli -g
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;usage&quot;&gt;&lt;a href=&quot;#usage&quot; class=&quot;headerlink&quot; title=&quot;usage&quot;&gt;&lt;/a&gt;usage&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;hexo init
+npm install
+hexo generate
+hexo server
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;upload-to-github&quot;&gt;&lt;a href=&quot;#upload-to-github&quot; class=&quot;headerlink&quot; title=&quot;upload to github&quot;&gt;&lt;/a&gt;upload to github&lt;/h2&gt;&lt;h4 id=&quot;update-config-yml-file&quot;&gt;&lt;a href=&quot;#update-config-yml-file&quot; class=&quot;headerlink&quot; title=&quot;update _config.yml file&quot;&gt;&lt;/a&gt;update _config.yml file&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;deploy:
+  type: git
+  # repository: https://github.com/lamkakyun/lamkakyun.github.io.git
+  repository: git@github.com:lamkakyun/lamkakyun.github.io.git
+  branch: master
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&quot;generate-static-file&quot;&gt;&lt;a href=&quot;#generate-static-file&quot; class=&quot;headerlink&quot; title=&quot;generate static file&quot;&gt;&lt;/a&gt;generate static file&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;npm install hexo-deployer-git --save
+hexo clean
+hexo generate
+hexo deploy
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;add-rss-feed-and-sitemap&quot;&gt;&lt;a href=&quot;#add-rss-feed-and-sitemap&quot; class=&quot;headerlink&quot; title=&quot;add rss feed and sitemap&quot;&gt;&lt;/a&gt;add rss feed and sitemap&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install hexo-generator-feed --save
+npm install hexo-generator-sitemap --save
+
+# update _config.yml
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;install-hexo&quot;&gt;&lt;a href=&quot;#install-hexo&quot; class=&quot;headerlink&quot; title=&quot;install hexo&quot;&gt;&lt;/a&gt;install hexo&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install hexo-cli -
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://lamkakyun.github.io/2016/06/14/hello-world/"/>
+    <id>http://lamkakyun.github.io/2016/06/14/hello-world/</id>
+    <published>2016-06-13T16:33:40.544Z</published>
+    <updated>2016-06-13T16:33:40.544Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
