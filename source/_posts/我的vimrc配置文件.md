@@ -2,6 +2,7 @@
 title: 我的vimrc配置文件
 date: 2016-06-14 23:32:51
 tags:
+  - vim
 ---
 
 ``` bash

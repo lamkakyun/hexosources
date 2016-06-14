@@ -14,7 +14,7 @@ tags:
 	hexo server
 
 ## upload to github
-	
+
 #### update _config.yml file
 	deploy:
 	  type: git
@@ -36,3 +36,7 @@ tags:
 	plugins:
 	- hexo-generator-feed
 	- hexo-generator-sitemap
+
+
+## 发现一个问题
+> 就是我想在其他PC上写博客，出现麻烦了，因为hexo源码并没有push到github，所以离开了原来的PC，就写不了，所以我将在github另外建立一个repository，将源码放在这个repository里面

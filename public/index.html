@@ -86,15 +86,15 @@
 
 
 
-<meta name="description" content="I like to use linux, and php, os architect, I effort to a architector">
+<meta name="description" content="立志成为系统架构师，正在疯狂购书和学习中">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Blog Of Lamkakyun">
 <meta property="og:url" content="http://lamkakyun.github.io/index.html">
 <meta property="og:site_name" content="Blog Of Lamkakyun">
-<meta property="og:description" content="I like to use linux, and php, os architect, I effort to a architector">
+<meta property="og:description" content="立志成为系统架构师，正在疯狂购书和学习中">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog Of Lamkakyun">
-<meta name="twitter:description" content="I like to use linux, and php, os architect, I effort to a architector">
+<meta name="twitter:description" content="立志成为系统架构师，正在疯狂购书和学习中">
 
 
 
@@ -154,7 +154,7 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">Welcome to my blog, I am a PHPer</p>
+  <p class="site-subtitle">欢迎来到我的博客，我是一个PHPER</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -218,6 +218,317 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/14/整理一些常用的linux命令/" itemprop="url">
+                  整理一些常用的linux命令
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time itemprop="dateCreated" datetime="2016-06-14T23:57:48+08:00" content="2016-06-14">
+              2016-06-14
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/14/整理一些常用的linux命令/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/06/14/整理一些常用的linux命令/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="因为打算使用ubuntu作为自己以后一直使用的操作系统"><a href="#因为打算使用ubuntu作为自己以后一直使用的操作系统" class="headerlink" title="因为打算使用ubuntu作为自己以后一直使用的操作系统"></a>因为打算使用ubuntu作为自己以后一直使用的操作系统</h2><h5 id="因而一些对一些常用的linux命令，进行记录"><a href="#因而一些对一些常用的linux命令，进行记录" class="headerlink" title="因而一些对一些常用的linux命令，进行记录"></a>因而一些对一些常用的linux命令，进行记录</h5><h3 id="convert-图像处理命令"><a href="#convert-图像处理命令" class="headerlink" title="convert 图像处理命令"></a>convert 图像处理命令</h3><pre><code>sudo apt install ImageMagick
+convert avatar.jpg avatar.png
+convert avatar.jpg -resize 80 avatar.gif
+</code></pre><h3 id="last-显示近期用户或终端的登录情况"><a href="#last-显示近期用户或终端的登录情况" class="headerlink" title="last 显示近期用户或终端的登录情况"></a>last 显示近期用户或终端的登录情况</h3><h3 id="du-lh-查看文件大小"><a href="#du-lh-查看文件大小" class="headerlink" title="du -lh 查看文件大小"></a>du -lh 查看文件大小</h3><h3 id="file-查看文件类型"><a href="#file-查看文件类型" class="headerlink" title="file 查看文件类型"></a>file 查看文件类型</h3><pre><code>file avatar.jpg
+</code></pre><h3 id="stat-查看文件的状态-如权限"><a href="#stat-查看文件的状态-如权限" class="headerlink" title="stat 查看文件的状态 (如权限)"></a>stat 查看文件的状态 (如权限)</h3><h3 id="iwconfig-查看wifi信息"><a href="#iwconfig-查看wifi信息" class="headerlink" title="iwconfig 查看wifi信息"></a>iwconfig 查看wifi信息</h3><pre><code>iwconfig # 查看哪一个接口支持无线连接
+sudo ip link set wlan0 up|down # 开启/关闭 网卡服务
+sudo iw dev wlan0 scan | less # 扫描无线网络 （可以加上grep ssid）
+sudo iw dev wlan0 connect [网络 SSID] # 连接的网络是没有加密的
+sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
+</code></pre><h3 id="free-查看内存和交换区使用量"><a href="#free-查看内存和交换区使用量" class="headerlink" title="free 查看内存和交换区使用量"></a>free 查看内存和交换区使用量</h3><h3 id="swapon-s-查看所有交换分区"><a href="#swapon-s-查看所有交换分区" class="headerlink" title="swapon -s 查看所有交换分区"></a>swapon -s 查看所有交换分区</h3><h3 id="fdisk-l-查看所有分区"><a href="#fdisk-l-查看所有分区" class="headerlink" title="fdisk -l  查看所有分区"></a>fdisk -l  查看所有分区</h3><h3 id="df-h-查看已挂载的硬盘信息"><a href="#df-h-查看已挂载的硬盘信息" class="headerlink" title="df -h 查看已挂载的硬盘信息"></a>df -h 查看已挂载的硬盘信息</h3>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/14/我的vimrc配置文件/" itemprop="url">
+                  我的vimrc配置文件
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time itemprop="dateCreated" datetime="2016-06-14T23:32:51+08:00" content="2016-06-14">
+              2016-06-14
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/14/我的vimrc配置文件/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/06/14/我的vimrc配置文件/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span></span><br><span class="line"><span class="string">" vundle plugin configuration</span><br><span class="line">"</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">"</span><br><span class="line">set nocompatible            </span><br><span class="line">filetype off</span><br><span class="line">set rtp+=~/.vim/bundle/Vundle.vim</span><br><span class="line">call vundle#begin()</span><br><span class="line"></span><br><span class="line">Plugin 'gmarik/Vundle.vim'</span><br><span class="line"></span><br><span class="line">Plugin 'Shougo/neocomplete.vim'</span><br><span class="line">Plugin 'ervandew/supertab'</span><br><span class="line">Plugin 'tristen/vim-sparkup'</span><br><span class="line">Plugin 'tpope/vim-commentary'</span><br><span class="line">Plugin 'scrooloose/syntastic'</span><br><span class="line">Plugin 'scrooloose/nerdtree'</span><br><span class="line">Plugin 'jiangmiao/auto-pairs'</span><br><span class="line">Plugin 'vim-scripts/taglist.vim'</span><br><span class="line">Plugin 'shawncplus/phpcomplete.vim'</span><br><span class="line"></span><br><span class="line">call vundle#end()        </span><br><span class="line">filetype plugin indent on</span><br><span class="line">"</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">"</span><br><span class="line">"</span> jet 简单配置</span><br><span class="line"><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span></span><br><span class="line">syntax on</span><br><span class="line"><span class="built_in">set</span> nocompatible</span><br><span class="line"><span class="built_in">set</span> <span class="built_in">history</span>=1000</span><br><span class="line"><span class="built_in">set</span> nu</span><br><span class="line">highlight StatusLine guifg=SlateBlue guibg=Yellow</span><br><span class="line">highlight StatusLineNC guifg=Gray guibg=White</span><br><span class="line"><span class="built_in">set</span> nobackup</span><br><span class="line">setlocal noswapfile</span><br><span class="line"><span class="built_in">set</span> ruler</span><br><span class="line"><span class="built_in">set</span> rulerformat=%20(%2*%&lt;%f%=\ %m%r\ %3l\ %c\ %p%%%)</span><br><span class="line"><span class="built_in">set</span> cmdheight=2</span><br><span class="line"><span class="built_in">set</span> backspace=2</span><br><span class="line"><span class="built_in">set</span> showmatch</span><br><span class="line"><span class="built_in">set</span> ignorecase</span><br><span class="line"><span class="built_in">set</span> hlsearch</span><br><span class="line"><span class="built_in">set</span> incsearch</span><br><span class="line"><span class="built_in">set</span> statusline=%F%m%r%h%w\[POS=%l,%v][%p%%]\%&#123;strftime(\<span class="string">"%d/%m/%y\ -\ %H:%M\")&#125;</span><br><span class="line">set laststatus=2</span><br><span class="line">set tabstop=4</span><br><span class="line">set softtabstop=4</span><br><span class="line">set shiftwidth=4</span><br><span class="line">"</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">"</span><br><span class="line">"</span> 配置按键</span><br><span class="line"><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span></span><br><span class="line">map &lt;Left&gt; &lt;None&gt;&lt;CR&gt;</span><br><span class="line">map &lt;Right&gt; &lt;None&gt;&lt;CR&gt;</span><br><span class="line">map &lt;Up&gt; &lt;None&gt;&lt;CR&gt;</span><br><span class="line">map &lt;Down&gt; &lt;None&gt;&lt;CR&gt;</span><br><span class="line"><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span></span><br><span class="line"><span class="string">" NERDTree配置</span><br><span class="line">"</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">"</span><br><span class="line">map &lt;C-n&gt; :NERDTreeToggle&lt;CR&gt; "</span> 有了supertab，就不需要这个按键了</span><br><span class="line"></span><br><span class="line"><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">"</span><br><span class="line">"</span> taglist 配置</span><br><span class="line"><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span><span class="string">""</span></span><br><span class="line"><span class="built_in">let</span> Tlist_Use_Right_Window = 1   <span class="string">" 右侧打开</span><br><span class="line">let Tlist_Ctags_Cmd = '/usr/bin/ctags'</span><br><span class="line">let Tlist_Exit_OnlyWindow = 1  "</span> 如果taglist窗口是最后一个窗口，则退出vim<span class="string">"</span><br><span class="line">let Tlist_Show_One_File = 1   "</span> 不同时显示多个文件的tag，只显示当前文件的<span class="string">"</span><br><span class="line">map &lt;silent&gt; &lt;F9&gt; :TlistOpen&lt;cr&gt;</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/14/我的zsh配置文件/" itemprop="url">
+                  我的zsh配置文件
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time itemprop="dateCreated" datetime="2016-06-14T23:32:19+08:00" content="2016-06-14">
+              2016-06-14
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/14/我的zsh配置文件/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/06/14/我的zsh配置文件/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> edsh=<span class="string">'vim ~/.zshrc'</span></span><br><span class="line"><span class="built_in">alias</span> srcsh=<span class="string">'source ~/.zshrc'</span></span><br><span class="line"><span class="built_in">alias</span> c=<span class="string">'clear'</span></span><br><span class="line"><span class="built_in">alias</span> vimrc=<span class="string">'vim ~/.vimrc'</span></span><br><span class="line"><span class="built_in">alias</span> eh=<span class="string">'sudo vim /etc/hosts'</span></span><br><span class="line"><span class="built_in">alias</span> vi=<span class="string">'vim'</span></span><br><span class="line"><span class="built_in">alias</span> install=<span class="string">'sudo apt install'</span></span><br><span class="line"><span class="built_in">alias</span> search=<span class="string">'apt search'</span></span><br><span class="line"><span class="built_in">alias</span> update=<span class="string">'sudo apt update'</span></span><br><span class="line"><span class="built_in">alias</span> autoremove=<span class="string">'sudo apt autoremove'</span></span><br><span class="line"><span class="built_in">alias</span> ..=<span class="string">'cd ..'</span></span><br><span class="line"><span class="built_in">alias</span> ping=<span class="string">'ping -c 4'</span></span><br><span class="line"><span class="built_in">alias</span> rm=<span class="string">'rm -i'</span></span><br><span class="line"><span class="built_in">alias</span> cp=<span class="string">'cp -i'</span></span><br><span class="line"><span class="built_in">alias</span> mv=<span class="string">'mv -i'</span></span><br><span class="line"><span class="built_in">alias</span> ali_ubs=<span class="string">'ssh xxx@127.0.0.1 -p 22'</span></span><br><span class="line"><span class="built_in">alias</span> ali_sftp=<span class="string">'sftp -oPort=22 jet@127.0.0.1'</span></span><br><span class="line"><span class="built_in">alias</span> awsub=<span class="string">'ssh -i /home/jet/Downloads/AwsUbs.pem ubuntu@127.0.0.1'</span></span><br><span class="line"><span class="built_in">alias</span> sslocalon=<span class="string">'nohup sslocal -s 127.0.0.1 -p 8839 -b 0.0.0.0 -l 1080 -k 1111111 -t 600 -m aes-256-cfb 1&gt;/home/jet/.sslocal.log 2&gt;&amp;1 &amp;'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> edphp=<span class="string">'sudo vim /usr/local/php/etc/php.ini'</span></span><br><span class="line"><span class="built_in">alias</span> edfpm=<span class="string">'sudo vim /usr/local/php/etc/php-fpm.conf'</span></span><br><span class="line"><span class="built_in">alias</span> ednginx=<span class="string">'sudo vim /usr/local/nginx/conf/jet.conf'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> nginxon=<span class="string">'sudo /usr/local/nginx/sbin/nginx'</span></span><br><span class="line"><span class="built_in">alias</span> nginxoff=<span class="string">'sudo /usr/local/nginx/sbin/nginx -s stop'</span></span><br><span class="line"><span class="comment"># alias nginxrestart='sudo /usr/local/nginx/sbin/nginx -s reload'</span></span><br><span class="line"><span class="built_in">alias</span> nginxrestart=<span class="string">'nginxoff &amp;&amp; nginxon'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> fpmon=<span class="string">'sudo /usr/local/php/sbin/php-fpm'</span></span><br><span class="line"><span class="built_in">alias</span> fpmoff=<span class="string">'sudo kill -INT `cat /usr/local/php/var/run/php-fpm.pid`'</span></span><br><span class="line"><span class="built_in">alias</span> fpmrestart=<span class="string">'sudo kill -USR2 `cat /usr/local/php/var/run/php-fpm.pid`'</span></span><br><span class="line"><span class="built_in">alias</span> edfpm=<span class="string">'sudo vim /usr/local/php/etc/php-fpm.conf'</span></span><br><span class="line"><span class="built_in">alias</span> localdb=<span class="string">'mycli -h 127.0.0.1 -uroot -p 123'</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> file=<span class="string">'nautilus'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># use taobao mirror instead of default npm sources</span></span><br><span class="line"><span class="built_in">alias</span> cnpm=<span class="string">"sudo npm --registry=https://registry.npm.taobao.org \</span><br><span class="line">--cache=<span class="variable">$HOME</span>/.npm/.cache/cnpm \</span><br><span class="line">--disturl=https://npm.taobao.org/dist \</span><br><span class="line">--userconfig=<span class="variable">$HOME</span>/.cnpmrc"</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> uploadblog=<span class="string">'hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy'</span></span><br><span class="line"><span class="built_in">alias</span> ub=<span class="string">'git add -A &amp;&amp; git commit -m "default comment" &amp;&amp; git push origin master &amp;&amp; hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy'</span></span><br><span class="line"><span class="built_in">alias</span> runblog=<span class="string">'hexo clean &amp;&amp; hexo generate &amp;&amp; hexo server -i 0.0.0.0 -p 8000'</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
       
 
@@ -308,6 +619,10 @@
 </li>
 <li><ul>
 <li>团购</li>
+</ul>
+</li>
+<li><ul>
+<li>二手车</li>
 </ul>
 </li>
 <li>旅游</li>
@@ -586,7 +901,10 @@ npm install hexo-generator-sitemap --save
 plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
-</code></pre>
+</code></pre><h2 id="发现一个问题"><a href="#发现一个问题" class="headerlink" title="发现一个问题"></a>发现一个问题</h2><blockquote>
+<p>就是我想在其他PC上写博客，出现麻烦了，因为hexo源码并没有push到github，所以离开了原来的PC，就写不了，所以我将在github另外建立一个repository，将源码放在这个repository里面</p>
+</blockquote>
+
           
         
       
@@ -650,12 +968,12 @@ plugins:
                src="/images/avatar.gif"
                alt="Lamkakyun" />
           <p class="site-author-name" itemprop="name">Lamkakyun</p>
-          <p class="site-description motion-element" itemprop="description">I like to use linux, and php, os architect, I effort to a architector</p>
+          <p class="site-description motion-element" itemprop="description">立志成为系统架构师，正在疯狂购书和学习中</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">Artikel</span>
             </a>
           </div>

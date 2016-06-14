@@ -2,6 +2,8 @@
 title: 我的zsh配置文件
 date: 2016-06-14 23:32:19
 tags:
+  - zsh
+  - linux
 ---
 
 ``` bash

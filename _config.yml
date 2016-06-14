@@ -4,8 +4,8 @@
 
 # Site
 title: Blog Of Lamkakyun
-subtitle: Welcome to my blog, I am a PHPer
-description: I like to use linux, and php, os architect, I effort to a architector
+subtitle: 欢迎来到我的博客，我是一个PHPER
+description: 立志成为系统架构师，正在疯狂购书和学习中
 author: Lamkakyun
 language: zh-CN
 timezone: Asia/Chongqing
@@ -89,4 +89,4 @@ deploy:
 
 # duoshuo_shortname: http://lamkakyun.github.io/
 # disqus_shortname: http://lamkakyun.disqus.com/
-disqus_shortname: http://lamkakyun.github.io/
+disqus_shortname: http://lamkakyun.disqus.com/
