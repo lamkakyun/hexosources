@@ -106,7 +106,7 @@ hexo server
 upload to githubupdate _config.yml filedeploy:
   type: git
   # repository: https://github.com/lamkakyun/lamkaky">
-<meta property="og:updated_time" content="2016-06-14T15:40:12.159Z">
+<meta property="og:updated_time" content="2016-06-30T17:00:25.142Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo和github-pages创建博客">
 <meta name="twitter:description" content="install hexonpm install hexo-cli -g
@@ -313,7 +313,7 @@ upload to githubupdate _config.yml filedeploy:
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
                 <a href="/2016/06/14/使用hexo和github-pages创建博客/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/06/14/使用hexo和github-pages创建博客/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/14/使用hexo和github-pages创建博客/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -360,7 +360,7 @@ plugins:
 </code></pre><h2 id="发现一个问题"><a href="#发现一个问题" class="headerlink" title="发现一个问题"></a>发现一个问题</h2><blockquote>
 <p>就是我想在其他PC上写博客，出现麻烦了，因为hexo源码并没有push到github，所以离开了原来的PC，就写不了，所以我将在github另外建立一个repository，将源码放在这个repository里面</p>
 </blockquote>
-
+<h2 id="一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流"><a href="#一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流" class="headerlink" title="一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流"></a>一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流</h2>
       
     </div>
 
@@ -416,11 +416,8 @@ plugins:
           
   <div class="comments" id="comments">
     
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
+      <div class="ds-thread" data-thread-key="2016/06/14/使用hexo和github-pages创建博客/"
+           data-title="使用hexo和github-pages创建博客" data-url="http://lamkakyun.github.io/2016/06/14/使用hexo和github-pages创建博客/">
       </div>
     
   </div>
@@ -565,7 +562,7 @@ plugins:
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#install-hexo"><span class="nav-number">1.</span> <span class="nav-text">install hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#usage"><span class="nav-number">2.</span> <span class="nav-text">usage</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#upload-to-github"><span class="nav-number">3.</span> <span class="nav-text">upload to github</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#update-config-yml-file"><span class="nav-number">3.0.1.</span> <span class="nav-text">update _config.yml file</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#generate-static-file"><span class="nav-number">3.0.2.</span> <span class="nav-text">generate static file</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#add-rss-feed-and-sitemap"><span class="nav-number">4.</span> <span class="nav-text">add rss feed and sitemap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#发现一个问题"><span class="nav-number">5.</span> <span class="nav-text">发现一个问题</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#install-hexo"><span class="nav-number">1.</span> <span class="nav-text">install hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#usage"><span class="nav-number">2.</span> <span class="nav-text">usage</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#upload-to-github"><span class="nav-number">3.</span> <span class="nav-text">upload to github</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#update-config-yml-file"><span class="nav-number">3.0.1.</span> <span class="nav-text">update _config.yml file</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#generate-static-file"><span class="nav-number">3.0.2.</span> <span class="nav-text">generate static file</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#add-rss-feed-and-sitemap"><span class="nav-number">4.</span> <span class="nav-text">add rss feed and sitemap</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#发现一个问题"><span class="nav-number">5.</span> <span class="nav-text">发现一个问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流"><span class="nav-number">6.</span> <span class="nav-text">一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流</span></a></li></ol></div>
             
           </div>
         </section>
@@ -679,30 +676,28 @@ plugins:
 
   
 
-
-
+  
+    
   
 
-    <script type="text/javascript">
-      var disqus_shortname = 'http://lamkakyun.disqus.com/';
-      var disqus_identifier = '2016/06/14/使用hexo和github-pages创建博客/';
-      var disqus_title = "使用hexo和github-pages创建博客";
-      var disqus_url = 'http://lamkakyun.github.io/2016/06/14/使用hexo和github-pages创建博客/';
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lamkakyun"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
-      function run_disqus_script(disqus_script){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-
-      run_disqus_script('count.js');
-      
-        run_disqus_script('embed.js');
-      
-    </script>
   
+    
+  
+
+
 
 
 

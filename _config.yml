@@ -75,6 +75,9 @@ limit: 20
 # theme: landscape
 theme: hexo-theme-next
 
+# 多说
+duoshuo_shortname: lamkakyun
+
 ## sitemap
 sitemap:
     path: sitemap.xml

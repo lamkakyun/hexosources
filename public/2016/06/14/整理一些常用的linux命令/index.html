@@ -320,7 +320,7 @@ last 显示近期用户或终端的登录情况du -lh 查看文件大小file">
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
                 <a href="/2016/06/14/整理一些常用的linux命令/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/06/14/整理一些常用的linux命令/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/14/整理一些常用的linux命令/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -418,11 +418,8 @@ sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
           
   <div class="comments" id="comments">
     
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
+      <div class="ds-thread" data-thread-key="2016/06/14/整理一些常用的linux命令/"
+           data-title="整理一些常用的linux命令" data-url="http://lamkakyun.github.io/2016/06/14/整理一些常用的linux命令/">
       </div>
     
   </div>
@@ -681,30 +678,28 @@ sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
 
   
 
-
-
+  
+    
   
 
-    <script type="text/javascript">
-      var disqus_shortname = 'http://lamkakyun.disqus.com/';
-      var disqus_identifier = '2016/06/14/整理一些常用的linux命令/';
-      var disqus_title = "整理一些常用的linux命令";
-      var disqus_url = 'http://lamkakyun.github.io/2016/06/14/整理一些常用的linux命令/';
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lamkakyun"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
-      function run_disqus_script(disqus_script){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-
-      run_disqus_script('count.js');
-      
-        run_disqus_script('embed.js');
-      
-    </script>
   
+    
+  
+
+
 
 
 
