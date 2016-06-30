@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lamkakyun.github.io/"/>
-  <updated>2016-06-29T13:00:42.668Z</updated>
+  <updated>2016-06-30T16:19:27.214Z</updated>
   <id>http://lamkakyun.github.io/</id>
   
   <author>
@@ -14,6 +14,91 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>假如叫我编写一个类似淘宝的平台，我应该怎么做</title>
+    <link href="http://lamkakyun.github.io/2016/07/01/%E5%81%87%E5%A6%82%E5%8F%AB%E6%88%91%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%B1%BB%E4%BC%BC%E6%B7%98%E5%AE%9D%E7%9A%84%E5%B9%B3%E5%8F%B0%EF%BC%8C%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%81%9A/"/>
+    <id>http://lamkakyun.github.io/2016/07/01/假如叫我编写一个类似淘宝的平台，我应该怎么做/</id>
+    <published>2016-06-30T16:19:27.000Z</published>
+    <updated>2016-06-30T16:19:27.214Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>代码大全2 阅读笔记</title>
+    <link href="http://lamkakyun.github.io/2016/06/30/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A82-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>http://lamkakyun.github.io/2016/06/30/代码大全2-阅读笔记/</id>
+    <published>2016-06-30T15:52:11.000Z</published>
+    <updated>2016-06-30T16:43:18.493Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;第一章-欢迎进入软件构建的世界&quot;&gt;&lt;a href=&quot;#第一章-欢迎进入软件构建的世界&quot; class=&quot;headerlink&quot; title=&quot;第一章 欢迎进入软件构建的世界&quot;&gt;&lt;/a&gt;第一章 欢迎进入软件构建的世界&lt;/h1&gt;&lt;h4 id=&quot;整体规划对于实现的重要性&quot;&gt;&lt;a href=&quot;#整体规划对于实现的重要性&quot; class=&quot;headerlink&quot; title=&quot;整体规划对于实现的重要性&quot;&gt;&lt;/a&gt;整体规划对于实现的重要性&lt;/h4&gt;&lt;h4 id=&quot;代码大全讲解的编程的本质，而不是xxx语言的高级编程&quot;&gt;&lt;a href=&quot;#代码大全讲解的编程的本质，而不是xxx语言的高级编程&quot; class=&quot;headerlink&quot; title=&quot;代码大全讲解的编程的本质，而不是xxx语言的高级编程&quot;&gt;&lt;/a&gt;代码大全讲解的编程的本质，而不是xxx语言的高级编程&lt;/h4&gt;&lt;h4 id=&quot;复杂的结构需要复杂的规划&quot;&gt;&lt;a href=&quot;#复杂的结构需要复杂的规划&quot; class=&quot;headerlink&quot; title=&quot;复杂的结构需要复杂的规划&quot;&gt;&lt;/a&gt;复杂的结构需要复杂的规划&lt;/h4&gt;&lt;h4 id=&quot;bug发现的时间越长，那么修复的成本就越高&quot;&gt;&lt;a href=&quot;#bug发现的时间越长，那么修复的成本就越高&quot; class=&quot;headerlink&quot; title=&quot;bug发现的时间越长，那么修复的成本就越高&quot;&gt;&lt;/a&gt;bug发现的时间越长，那么修复的成本就越高&lt;/h4&gt;&lt;h4 id=&quot;假如没有好的需求，你可能对项目有整体的把握，但是却不能击中问题&quot;&gt;&lt;a href=&quot;#假如没有好的需求，你可能对项目有整体的把握，但是却不能击中问题&quot; class=&quot;headerlink&quot; title=&quot;假如没有好的需求，你可能对项目有整体的把握，但是却不能击中问题&quot;&gt;&lt;/a&gt;假如没有好的需求，你可能对项目有整体的把握，但是却不能击中问题&lt;/h4&gt;&lt;h4 id=&quot;既不快也不慢的开发方式，产生的错误是最多的&quot;&gt;&lt;a href=&quot;#既不快也不慢的开发方式，产生的错误是最多的&quot; class=&quot;headerlink&quot; title=&quot;既不快也不慢的开发方式，产生的错误是最多的&quot;&gt;&lt;/a&gt;既不快也不慢的开发方式，产生的错误是最多的&lt;/h4&gt;&lt;h4 id=&quot;相比大规模的修改，小修小补产生的错误更多&quot;&gt;&lt;a href=&quot;#相比大规模的修改，小修小补产生的错误更多&quot; class=&quot;headerlink&quot; title=&quot;相比大规模的修改，小修小补产生的错误更多&quot;&gt;&lt;/a&gt;相比大规模的修改，小修小补产生的错误更多&lt;/h4&gt;&lt;h1 id=&quot;第二章-用隐喻更充分地理解软件开发&quot;&gt;&lt;a href=&quot;#第二章-用隐喻更充分地理解软件开发&quot; class=&quot;headerlink&quot; title=&quot;第二章 用隐喻更充分地理解软件开发&quot;&gt;&lt;/a&gt;第二章 用隐喻更充分地理解软件开发&lt;/h1&gt;&lt;h4 id=&quot;不同类型的开发，需要使用不同的开发方式，大概就是乡村小屋和CBD大厦的区别&quot;&gt;&lt;a href=&quot;#不同类型的开发，需要使用不同的开发方式，大概就是乡村小屋和CBD大厦的区别&quot; class=&quot;headerlink&quot; title=&quot;不同类型的开发，需要使用不同的开发方式，大概就是乡村小屋和CBD大厦的区别&quot;&gt;&lt;/a&gt;不同类型的开发，需要使用不同的开发方式，大概就是乡村小屋和CBD大厦的区别&lt;/h4&gt;&lt;h1 id=&quot;第三章-三思而后行：前期工作&quot;&gt;&lt;a href=&quot;#第三章-三思而后行：前期工作&quot; class=&quot;headerlink&quot; title=&quot;第三章 三思而后行：前期工作&quot;&gt;&lt;/a&gt;第三章 三思而后行：前期工作&lt;/h1&gt;&lt;h4 id=&quot;测试保证产品完整质量，但是并不能推测是否正确的创造了一个产品或者这是一个错误的产品，所以前期的准备工作十分重要&quot;&gt;&lt;a href=&quot;#测试保证产品完整质量，但是并不能推测是否正确的创造了一个产品或者这是一个错误的产品，所以前期的准备工作十分重要&quot; class=&quot;headerlink&quot; title=&quot;测试保证产品完整质量，但是并不能推测是否正确的创造了一个产品或者这是一个错误的产品，所以前期的准备工作十分重要&quot;&gt;&lt;/a&gt;测试保证产品完整质量，但是并不能推测是否正确的创造了一个产品或者这是一个错误的产品，所以前期的准备工作十分重要&lt;/h4&gt;&lt;h4 id=&quot;程序员，不做前期工作的原因有二&quot;&gt;&lt;a href=&quot;#程序员，不做前期工作的原因有二&quot; class=&quot;headerlink&quot; title=&quot;程序员，不做前期工作的原因有二&quot;&gt;&lt;/a&gt;程序员，不做前期工作的原因有二&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;急于编码实现&lt;/li&gt;
+&lt;li&gt;项目管理人没有耐心花费时间来进行前期工作&lt;h4 id=&quot;bug被发现的时间越长，对系统的损害越大，修复成本越高，所以前期工作十分重要&quot;&gt;&lt;a href=&quot;#bug被发现的时间越长，对系统的损害越大，修复成本越高，所以前期工作十分重要&quot; class=&quot;headerlink&quot; title=&quot;bug被发现的时间越长，对系统的损害越大，修复成本越高，所以前期工作十分重要&quot;&gt;&lt;/a&gt;bug被发现的时间越长，对系统的损害越大，修复成本越高，所以前期工作十分重要&lt;/h4&gt;&lt;h4 id=&quot;比喻：在射击前，你确信瞄准了靶心？&quot;&gt;&lt;a href=&quot;#比喻：在射击前，你确信瞄准了靶心？&quot; class=&quot;headerlink&quot; title=&quot;比喻：在射击前，你确信瞄准了靶心？&quot;&gt;&lt;/a&gt;比喻：在射击前，你确信瞄准了靶心？&lt;/h4&gt;&lt;h4 id=&quot;需求的审核是必要的步骤，假如到达了架构、射击、编码阶段，那么修复错误的需求的成本十分高昂&quot;&gt;&lt;a href=&quot;#需求的审核是必要的步骤，假如到达了架构、射击、编码阶段，那么修复错误的需求的成本十分高昂&quot; class=&quot;headerlink&quot; title=&quot;需求的审核是必要的步骤，假如到达了架构、射击、编码阶段，那么修复错误的需求的成本十分高昂&quot;&gt;&lt;/a&gt;需求的审核是必要的步骤，假如到达了架构、射击、编码阶段，那么修复错误的需求的成本十分高昂&lt;/h4&gt;&lt;h4 id=&quot;需要控制需求的变化，频繁的变化，导致跟不上项目进度&quot;&gt;&lt;a href=&quot;#需要控制需求的变化，频繁的变化，导致跟不上项目进度&quot; class=&quot;headerlink&quot; title=&quot;需要控制需求的变化，频繁的变化，导致跟不上项目进度&quot;&gt;&lt;/a&gt;需要控制需求的变化，频繁的变化，导致跟不上项目进度&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;需求核对表&quot;&gt;&lt;a href=&quot;#需求核对表&quot; class=&quot;headerlink&quot; title=&quot;需求核对表&quot;&gt;&lt;/a&gt;需求核对表&lt;/h2&gt;&lt;h3 id=&quot;针对功能的需求&quot;&gt;&lt;a href=&quot;#针对功能的需求&quot; class=&quot;headerlink&quot; title=&quot;针对功能的需求&quot;&gt;&lt;/a&gt;针对功能的需求&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;是否详细定义了全部输入，包括来源、精度、取值范围、出现频率&lt;/li&gt;
+&lt;li&gt;输出（同上）&lt;/li&gt;
+&lt;li&gt;是否详细定义了所有输出的格式&lt;/li&gt;
+&lt;li&gt;是否详细定义了所有硬件及软件的外部接口&lt;/li&gt;
+&lt;li&gt;协议的定义？握手，纠错，通讯&lt;/li&gt;
+&lt;li&gt;列出了用户想要做的全部事情？&lt;h3 id=&quot;针对非功能的需求-略&quot;&gt;&lt;a href=&quot;#针对非功能的需求-略&quot; class=&quot;headerlink&quot; title=&quot;针对非功能的需求(略)&quot;&gt;&lt;/a&gt;针对非功能的需求(略)&lt;/h3&gt;&lt;h3 id=&quot;需求质量（略）&quot;&gt;&lt;a href=&quot;#需求质量（略）&quot; class=&quot;headerlink&quot; title=&quot;需求质量（略）&quot;&gt;&lt;/a&gt;需求质量（略）&lt;/h3&gt;&lt;h3 id=&quot;需求的完备性（略）&quot;&gt;&lt;a href=&quot;#需求的完备性（略）&quot; class=&quot;headerlink&quot; title=&quot;需求的完备性（略）&quot;&gt;&lt;/a&gt;需求的完备性（略）&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;架构的组成&quot;&gt;&lt;a href=&quot;#架构的组成&quot; class=&quot;headerlink&quot; title=&quot;架构的组成&quot;&gt;&lt;/a&gt;架构的组成&lt;/h2&gt;&lt;h4 id=&quot;如果系统中的某个角色没有清晰的构思，编写这个类将会是令人沮丧的&quot;&gt;&lt;a href=&quot;#如果系统中的某个角色没有清晰的构思，编写这个类将会是令人沮丧的&quot; class=&quot;headerlink&quot; title=&quot;如果系统中的某个角色没有清晰的构思，编写这个类将会是令人沮丧的&quot;&gt;&lt;/a&gt;如果系统中的某个角色没有清晰的构思，编写这个类将会是令人沮丧的&lt;/h4&gt;&lt;h4 id=&quot;定义程序的主要构造块：构造块可能是一个类或者一组类和子程序，诸如，交互程序，web页面，解释命令，业务规则，访问数据库等&quot;&gt;&lt;a href=&quot;#定义程序的主要构造块：构造块可能是一个类或者一组类和子程序，诸如，交互程序，web页面，解释命令，业务规则，访问数据库等&quot; class=&quot;headerlink&quot; title=&quot;定义程序的主要构造块：构造块可能是一个类或者一组类和子程序，诸如，交互程序，web页面，解释命令，业务规则，访问数据库等&quot;&gt;&lt;/a&gt;定义程序的主要构造块：构造块可能是一个类或者一组类和子程序，诸如，交互程序，web页面，解释命令，业务规则，访问数据库等&lt;/h4&gt;&lt;h4 id=&quot;定义主要的类：&quot;&gt;&lt;a href=&quot;#定义主要的类：&quot; class=&quot;headerlink&quot; title=&quot;定义主要的类：&quot;&gt;&lt;/a&gt;定义主要的类：&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;架构应定义所用的主要的类，以及其职责，及于其他类的交互，应包含继承，状态转换，对象持久化&lt;h4 id=&quot;架构的规则：-应对构成80-行为的20-的类进行详细的描述&quot;&gt;&lt;a href=&quot;#架构的规则：-应对构成80-行为的20-的类进行详细的描述&quot; class=&quot;headerlink&quot; title=&quot;架构的规则： 应对构成80%行为的20%的类进行详细的描述&quot;&gt;&lt;/a&gt;架构的规则： 应对构成80%行为的20%的类进行详细的描述&lt;/h4&gt;&lt;h4 id=&quot;数据设计：架构应描述文件和表的设计，并给出理由，应解析所用数据库的高层组织结构和内容&quot;&gt;&lt;a href=&quot;#数据设计：架构应描述文件和表的设计，并给出理由，应解析所用数据库的高层组织结构和内容&quot; class=&quot;headerlink&quot; title=&quot;数据设计：架构应描述文件和表的设计，并给出理由，应解析所用数据库的高层组织结构和内容&quot;&gt;&lt;/a&gt;数据设计：架构应描述文件和表的设计，并给出理由，应解析所用数据库的高层组织结构和内容&lt;/h4&gt;&lt;h4 id=&quot;业务规则：如果架构依赖于业务规则，则应该详细描述业务规则&quot;&gt;&lt;a href=&quot;#业务规则：如果架构依赖于业务规则，则应该详细描述业务规则&quot; class=&quot;headerlink&quot; title=&quot;业务规则：如果架构依赖于业务规则，则应该详细描述业务规则&quot;&gt;&lt;/a&gt;业务规则：如果架构依赖于业务规则，则应该详细描述业务规则&lt;/h4&gt;&lt;h4 id=&quot;UI设计：架构应定义web页面的格式，GUI，CLI等主要元素。应模块化设计，确保替换UI，不影响业务和输出&quot;&gt;&lt;a href=&quot;#UI设计：架构应定义web页面的格式，GUI，CLI等主要元素。应模块化设计，确保替换UI，不影响业务和输出&quot; class=&quot;headerlink&quot; title=&quot;UI设计：架构应定义web页面的格式，GUI，CLI等主要元素。应模块化设计，确保替换UI，不影响业务和输出&quot;&gt;&lt;/a&gt;UI设计：架构应定义web页面的格式，GUI，CLI等主要元素。应模块化设计，确保替换UI，不影响业务和输出&lt;/h4&gt;&lt;h4 id=&quot;资源管理：如DB连接，线程，内存，句柄等。如果需要主动管理，那么应认真架构设计资源管理器&quot;&gt;&lt;a href=&quot;#资源管理：如DB连接，线程，内存，句柄等。如果需要主动管理，那么应认真架构设计资源管理器&quot; class=&quot;headerlink&quot; title=&quot;资源管理：如DB连接，线程，内存，句柄等。如果需要主动管理，那么应认真架构设计资源管理器&quot;&gt;&lt;/a&gt;资源管理：如DB连接，线程，内存，句柄等。如果需要主动管理，那么应认真架构设计资源管理器&lt;/h4&gt;&lt;h4 id=&quot;安全性：&quot;&gt;&lt;a href=&quot;#安全性：&quot; class=&quot;headerlink&quot; title=&quot;安全性：&quot;&gt;&lt;/a&gt;安全性：&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;架构应该建立一个威胁模型，如缓冲区，非受信数据（如用户输入，cookie，配置，其他外部接口的输入数据等）的加密、规则、错误消息的细致程度等其他事项&lt;h4 id=&quot;性能：架构应该定义资源的优化顺序（不同系统不相同），提供可估数据，解析为什么架构能达到这样的性能&quot;&gt;&lt;a href=&quot;#性能：架构应该定义资源的优化顺序（不同系统不相同），提供可估数据，解析为什么架构能达到这样的性能&quot; class=&quot;headerlink&quot; title=&quot;性能：架构应该定义资源的优化顺序（不同系统不相同），提供可估数据，解析为什么架构能达到这样的性能&quot;&gt;&lt;/a&gt;性能：架构应该定义资源的优化顺序（不同系统不相同），提供可估数据，解析为什么架构能达到这样的性能&lt;/h4&gt;&lt;h4 id=&quot;可伸缩性&quot;&gt;&lt;a href=&quot;#可伸缩性&quot; class=&quot;headerlink&quot; title=&quot;可伸缩性&quot;&gt;&lt;/a&gt;可伸缩性&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;架构应该描述如何应对用户数，服务器数量，网络节点，数据库记录数量，交易数量的增长&lt;h4 id=&quot;互用性：如预计与其他系统共享数据或者资源，应该描述如何完成&quot;&gt;&lt;a href=&quot;#互用性：如预计与其他系统共享数据或者资源，应该描述如何完成&quot; class=&quot;headerlink&quot; title=&quot;互用性：如预计与其他系统共享数据或者资源，应该描述如何完成&quot;&gt;&lt;/a&gt;互用性：如预计与其他系统共享数据或者资源，应该描述如何完成&lt;/h4&gt;&lt;h4 id=&quot;国际化&quot;&gt;&lt;a href=&quot;#国际化&quot; class=&quot;headerlink&quot; title=&quot;国际化&quot;&gt;&lt;/a&gt;国际化&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;考虑所用字符集，如何在不改动代码的情况下，维护这些字符串&lt;h4 id=&quot;错误处理：据统计，有90-以上的代码用户处理错误&quot;&gt;&lt;a href=&quot;#错误处理：据统计，有90-以上的代码用户处理错误&quot; class=&quot;headerlink&quot; title=&quot;错误处理：据统计，有90%以上的代码用户处理错误&quot;&gt;&lt;/a&gt;错误处理：据统计，有90%以上的代码用户处理错误&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;定义纠正错误，还是仅仅进行错误检测&lt;/li&gt;
+&lt;li&gt;定义主动处理还是被动处理&lt;/li&gt;
+&lt;li&gt;如何传播错误消息&lt;/li&gt;
+&lt;li&gt;错误消息的处理约定&lt;/li&gt;
+&lt;li&gt;如何处理异常，何时抛出，什么地方捕获，如何记录日志&lt;h4 id=&quot;容错性：（这是一个复杂的主题，超出本书，略）&quot;&gt;&lt;a href=&quot;#容错性：（这是一个复杂的主题，超出本书，略）&quot; class=&quot;headerlink&quot; title=&quot;容错性：（这是一个复杂的主题，超出本书，略）&quot;&gt;&lt;/a&gt;容错性：（这是一个复杂的主题，超出本书，略）&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;出错，重新执行代码&lt;/li&gt;
+&lt;li&gt;出错，执行备用代码&lt;/li&gt;
+&lt;li&gt;出错，通过多个程序的运行结果来去中值等&lt;h4 id=&quot;变更策略：&quot;&gt;&lt;a href=&quot;#变更策略：&quot; class=&quot;headerlink&quot; title=&quot;变更策略：&quot;&gt;&lt;/a&gt;变更策略：&lt;/h4&gt;&lt;/li&gt;
+&lt;li&gt;应描述变更策略&lt;/li&gt;
+&lt;li&gt;考虑所有将增强的功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;第四章&quot;&gt;&lt;a href=&quot;#第四章&quot; class=&quot;headerlink&quot; title=&quot;第四章&quot;&gt;&lt;/a&gt;第四章&lt;/h1&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;第一章-欢迎进入软件构建的世界&quot;&gt;&lt;a href=&quot;#第一章-欢迎进入软件构建的世界&quot; class=&quot;headerlink&quot; title=&quot;第一章 欢迎进入软件构建的世界&quot;&gt;&lt;/a&gt;第一章 欢迎进入软件构建的世界&lt;/h1&gt;&lt;h4 id=&quot;整体规划对于实现的重要性&quot;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于童年</title>
+    <link href="http://lamkakyun.github.io/2016/06/29/%E5%85%B3%E4%BA%8E%E7%AB%A5%E5%B9%B4/"/>
+    <id>http://lamkakyun.github.io/2016/06/29/关于童年/</id>
+    <published>2016-06-29T13:03:01.000Z</published>
+    <updated>2016-06-30T15:51:39.868Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;关于童年对我的影响&quot;&gt;&lt;a href=&quot;#关于童年对我的影响&quot; class=&quot;headerlink&quot; title=&quot;关于童年对我的影响&quot;&gt;&lt;/a&gt;关于童年对我的影响&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;我发现很多人习惯地会抱怨童年，就如我一样，同样的认为父母毁掉了自己！对自己关心不够，对自己太过凶恶。导致日后的失败，或者不如意。但我发现这些抱怨只是，对自己生活不如意找到发泄的出口。但我亦承认，童年对我现在生活的影响确实巨大。&lt;br&gt;但是，人总要学会坚强，学会修复自身的伤痛，继续前行。而不是耿耿于怀。在生活中，我们慢慢的学会了固执，不到南墙不回头的态度。&lt;/p&gt;
+&lt;p&gt;不写了，并不想暴露自己的生活，过去。只是表明一下自己的态度而已&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;关于童年对我的影响&quot;&gt;&lt;a href=&quot;#关于童年对我的影响&quot; class=&quot;headerlink&quot; title=&quot;关于童年对我的影响&quot;&gt;&lt;/a&gt;关于童年对我的影响&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;我发现很多人习惯地会抱怨童年，就如我一样，同样的认为父母毁
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>symfony 初学习</title>
