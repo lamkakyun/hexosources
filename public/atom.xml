@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lamkakyun.github.io/"/>
-  <updated>2016-06-30T16:58:59.789Z</updated>
+  <updated>2016-07-03T15:55:45.967Z</updated>
   <id>http://lamkakyun.github.io/</id>
   
   <author>
@@ -16,23 +16,65 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>假如叫我编写一个类似淘宝的平台，我应该怎么做</title>
-    <link href="http://lamkakyun.github.io/2016/07/01/%E5%81%87%E5%A6%82%E5%8F%AB%E6%88%91%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%B1%BB%E4%BC%BC%E6%B7%98%E5%AE%9D%E7%9A%84%E5%B9%B3%E5%8F%B0%EF%BC%8C%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%81%9A/"/>
-    <id>http://lamkakyun.github.io/2016/07/01/假如叫我编写一个类似淘宝的平台，我应该怎么做/</id>
-    <published>2016-06-30T16:19:27.000Z</published>
-    <updated>2016-06-30T16:58:59.789Z</updated>
+    <title>Android 应用开发揭秘-阅读笔记</title>
+    <link href="http://lamkakyun.github.io/2016/07/03/Android-%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%8F%AD%E7%A7%98-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>http://lamkakyun.github.io/2016/07/03/Android-应用开发揭秘-阅读笔记/</id>
+    <published>2016-07-03T15:09:52.000Z</published>
+    <updated>2016-07-03T15:55:45.967Z</updated>
     
     <content type="html">&lt;blockquote&gt;
-&lt;p&gt;这确实是一个十分有趣的题目，十分有挑战性，增强自己的求知欲望啊！所以我决定试试用这个题目来&lt;/p&gt;
+&lt;p&gt;这是一本很旧的书，是从公司那里借来看的，之前没有任何安卓开发经验，有的只是JAVA的基础知识罢了，由于做后台的缘故，所以通常会和APP端的人员打交道，也会遇到一些问题，比如APP人员无法解决的问题，所以也希望看看APP的开发，本书就作为一个入门，让自己对APP开发的流程，和知识点做一个全面的总结。以后也方便和APP的人员打交道&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
+&lt;h1 id=&quot;第一章-Android开发简介&quot;&gt;&lt;a href=&quot;#第一章-Android开发简介&quot; class=&quot;headerlink&quot; title=&quot;第一章 Android开发简介&quot;&gt;&lt;/a&gt;第一章 Android开发简介&lt;/h1&gt;&lt;h4 id=&quot;android系统架构&quot;&gt;&lt;a href=&quot;#android系统架构&quot; class=&quot;headerlink&quot; title=&quot;android系统架构&quot;&gt;&lt;/a&gt;android系统架构&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/img/20140311140541765.jpg&quot; alt=&quot;android系统架构&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;应用层：捆绑的核心应用&lt;/li&gt;
+&lt;li&gt;应用框架层：Google核心应用所使用的API框架，当然，开发者同样可以使用&lt;/li&gt;
+&lt;li&gt;系统运行库：就像linux的各种lib。&lt;/li&gt;
+&lt;li&gt;linux内核层：无需多说&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;第二章-Android开发环境搭建&quot;&gt;&lt;a href=&quot;#第二章-Android开发环境搭建&quot; class=&quot;headerlink&quot; title=&quot;第二章 Android开发环境搭建&quot;&gt;&lt;/a&gt;第二章 Android开发环境搭建&lt;/h1&gt;&lt;h1 id=&quot;第三章-Android程序设计基础&quot;&gt;&lt;a href=&quot;#第三章-Android程序设计基础&quot; class=&quot;headerlink&quot; title=&quot;第三章 Android程序设计基础&quot;&gt;&lt;/a&gt;第三章 Android程序设计基础&lt;/h1&gt;&lt;h1 id=&quot;第四章-用户界面开发&quot;&gt;&lt;a href=&quot;#第四章-用户界面开发&quot; class=&quot;headerlink&quot; title=&quot;第四章 用户界面开发&quot;&gt;&lt;/a&gt;第四章 用户界面开发&lt;/h1&gt;&lt;h1 id=&quot;第五章-Android游戏开发&quot;&gt;&lt;a href=&quot;#第五章-Android游戏开发&quot; class=&quot;headerlink&quot; title=&quot;第五章 Android游戏开发&quot;&gt;&lt;/a&gt;第五章 Android游戏开发&lt;/h1&gt;&lt;h1 id=&quot;第六章-Android数据存储&quot;&gt;&lt;a href=&quot;#第六章-Android数据存储&quot; class=&quot;headerlink&quot; title=&quot;第六章 Android数据存储&quot;&gt;&lt;/a&gt;第六章 Android数据存储&lt;/h1&gt;&lt;h1 id=&quot;第七章-多媒体开发&quot;&gt;&lt;a href=&quot;#第七章-多媒体开发&quot; class=&quot;headerlink&quot; title=&quot;第七章 多媒体开发&quot;&gt;&lt;/a&gt;第七章 多媒体开发&lt;/h1&gt;&lt;h1 id=&quot;第八章-网络和通讯&quot;&gt;&lt;a href=&quot;#第八章-网络和通讯&quot; class=&quot;headerlink&quot; title=&quot;第八章 网络和通讯&quot;&gt;&lt;/a&gt;第八章 网络和通讯&lt;/h1&gt;&lt;h1 id=&quot;第九章-Android特色开发&quot;&gt;&lt;a href=&quot;#第九章-Android特色开发&quot; class=&quot;headerlink&quot; title=&quot;第九章 Android特色开发&quot;&gt;&lt;/a&gt;第九章 Android特色开发&lt;/h1&gt;&lt;h1 id=&quot;第十章-Android应用开发实例&quot;&gt;&lt;a href=&quot;#第十章-Android应用开发实例&quot; class=&quot;headerlink&quot; title=&quot;第十章 Android应用开发实例&quot;&gt;&lt;/a&gt;第十章 Android应用开发实例&lt;/h1&gt;&lt;h1 id=&quot;第十一章-Andoird游戏开发实例&quot;&gt;&lt;a href=&quot;#第十一章-Andoird游戏开发实例&quot; class=&quot;headerlink&quot; title=&quot;第十一章 Andoird游戏开发实例&quot;&gt;&lt;/a&gt;第十一章 Andoird游戏开发实例&lt;/h1&gt;&lt;h1 id=&quot;第十二章-Android-OPENGL开发基础&quot;&gt;&lt;a href=&quot;#第十二章-Android-OPENGL开发基础&quot; class=&quot;headerlink&quot; title=&quot;第十二章 Android OPENGL开发基础&quot;&gt;&lt;/a&gt;第十二章 Android OPENGL开发基础&lt;/h1&gt;&lt;h1 id=&quot;第十三章-Android-OPENGL综合应用&quot;&gt;&lt;a href=&quot;#第十三章-Android-OPENGL综合应用&quot; class=&quot;headerlink&quot; title=&quot;第十三章 Android OPENGL综合应用&quot;&gt;&lt;/a&gt;第十三章 Android OPENGL综合应用&lt;/h1&gt;&lt;h1 id=&quot;第十四章-游戏引擎实现&quot;&gt;&lt;a href=&quot;#第十四章-游戏引擎实现&quot; class=&quot;headerlink&quot; title=&quot;第十四章 游戏引擎实现&quot;&gt;&lt;/a&gt;第十四章 游戏引擎实现&lt;/h1&gt;&lt;h1 id=&quot;第十五章-优化技术&quot;&gt;&lt;a href=&quot;#第十五章-优化技术&quot; class=&quot;headerlink&quot; title=&quot;第十五章 优化技术&quot;&gt;&lt;/a&gt;第十五章 优化技术&lt;/h1&gt;&lt;h1 id=&quot;第十六章-Android-NDK-开发&quot;&gt;&lt;a href=&quot;#第十六章-Android-NDK-开发&quot; class=&quot;headerlink&quot; title=&quot;第十六章 Android NDK 开发&quot;&gt;&lt;/a&gt;第十六章 Android NDK 开发&lt;/h1&gt;&lt;h1 id=&quot;第十七章-Android-脚本环境&quot;&gt;&lt;a href=&quot;#第十七章-Android-脚本环境&quot; class=&quot;headerlink&quot; title=&quot;第十七章 Android 脚本环境&quot;&gt;&lt;/a&gt;第十七章 Android 脚本环境&lt;/h1&gt;</content>
     
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;这确实是一个十分有趣的题目，十分有挑战性，增强自己的求知欲望啊！所以我决定试试用这个题目来&lt;/p&gt;
+&lt;p&gt;这是一本很旧的书，是从公司那里借来看的，之前没有任何安卓开发经验，有的只是JAVA的基础知识罢了，由于做后台的缘故，所以通常会和APP端的人员打交道，也会遇到一些问题，比如APP人员无法解决的问题，所以也希望看看APP的开发，本书就作为一个入门，让
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>假如叫我编写一个类似淘宝的平台，我应该怎么做</title>
+    <link href="http://lamkakyun.github.io/2016/07/01/%E5%81%87%E5%A6%82%E5%8F%AB%E6%88%91%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%B1%BB%E4%BC%BC%E6%B7%98%E5%AE%9D%E7%9A%84%E5%B9%B3%E5%8F%B0%EF%BC%8C%E6%88%91%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E5%81%9A/"/>
+    <id>http://lamkakyun.github.io/2016/07/01/假如叫我编写一个类似淘宝的平台，我应该怎么做/</id>
+    <published>2016-06-30T16:19:27.000Z</published>
+    <updated>2016-06-30T17:31:57.376Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;这确实是一个十分有趣的题目，十分有挑战性，增强自己的求知欲望啊！同时也能够综合运用一下一直以来学习到的知识，所以我决定试试用这个题目，以此来锻炼自己的开发能力&lt;/p&gt;
 &lt;/blockquote&gt;
-
+&lt;h1 id=&quot;软件开发的流程，大概分&quot;&gt;&lt;a href=&quot;#软件开发的流程，大概分&quot; class=&quot;headerlink&quot; title=&quot;软件开发的流程，大概分&quot;&gt;&lt;/a&gt;软件开发的流程，大概分&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;采集数据&lt;/li&gt;
+&lt;li&gt;需求分析&lt;/li&gt;
+&lt;li&gt;需求评估&lt;/li&gt;
+&lt;li&gt;确认产品，立项评估（demo演示,PPT/VISO/思维导图/Axure都行）&lt;/li&gt;
+&lt;li&gt;架构设计&lt;/li&gt;
+&lt;li&gt;架构审核&lt;/li&gt;
+&lt;li&gt;编码实现&lt;/li&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;li&gt;部署&lt;/li&gt;
+&lt;li&gt;迭代更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;需求分析（因为是设想，所以采集数据略去）&quot;&gt;&lt;a href=&quot;#需求分析（因为是设想，所以采集数据略去）&quot; class=&quot;headerlink&quot; title=&quot;需求分析（因为是设想，所以采集数据略去）&quot;&gt;&lt;/a&gt;需求分析（因为是设想，所以采集数据略去）&lt;/h1&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这确实是一个十分有趣的题目，十分有挑战性，增强自己的求知欲望啊！同时也能够综合运用一下一直以来学习到的知识，所以我决定试试用这个题目，以此来锻炼自己的开发能力&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;软件开发的流程，大概分&quot;&gt;&lt;a hr
     
     </summary>
     
@@ -44,7 +86,7 @@
     <link href="http://lamkakyun.github.io/2016/06/30/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A82-%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
     <id>http://lamkakyun.github.io/2016/06/30/代码大全2-阅读笔记/</id>
     <published>2016-06-30T15:52:11.000Z</published>
-    <updated>2016-06-30T16:50:40.003Z</updated>
+    <updated>2016-07-03T15:07:04.615Z</updated>
     
     <content type="html">&lt;h1 id=&quot;第一章-欢迎进入软件构建的世界&quot;&gt;&lt;a href=&quot;#第一章-欢迎进入软件构建的世界&quot; class=&quot;headerlink&quot; title=&quot;第一章 欢迎进入软件构建的世界&quot;&gt;&lt;/a&gt;第一章 欢迎进入软件构建的世界&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;整体规划对于实现的重要性&lt;br&gt;代码大全讲解的编程的本质，而不是xxx语言的高级编程&lt;br&gt;复杂的结构需要复杂的规划&lt;br&gt;bug发现的时间越长，那么修复的成本就越高&lt;br&gt;假如没有好的需求，你可能对项目有整体的把握，但是却不能击中问题&lt;br&gt;既不快也不慢的开发方式，产生的错误是最多的&lt;br&gt;相比大规模的修改，小修小补产生的错误更多&lt;/p&gt;
@@ -82,7 +124,33 @@
 &lt;p&gt;应描述变更策略&lt;br&gt;考虑所有将增强的功能&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h1 id=&quot;第四章&quot;&gt;&lt;a href=&quot;#第四章&quot; class=&quot;headerlink&quot; title=&quot;第四章&quot;&gt;&lt;/a&gt;第四章&lt;/h1&gt;</content>
+&lt;h1 id=&quot;第四章-关键的构建决策&quot;&gt;&lt;a href=&quot;#第四章-关键的构建决策&quot; class=&quot;headerlink&quot; title=&quot;第四章 关键的构建决策&quot;&gt;&lt;/a&gt;第四章 关键的构建决策&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;本章节主要介绍选择什么语言开发，测试方式，代码约定，框架等等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;第五章-软件构建中的设计&quot;&gt;&lt;a href=&quot;#第五章-软件构建中的设计&quot; class=&quot;headerlink&quot; title=&quot;第五章 软件构建中的设计&quot;&gt;&lt;/a&gt;第五章 软件构建中的设计&lt;/h1&gt;&lt;h4 id=&quot;设计的险恶&quot;&gt;&lt;a href=&quot;#设计的险恶&quot; class=&quot;headerlink&quot; title=&quot;设计的险恶&quot;&gt;&lt;/a&gt;设计的险恶&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;要解决或部分解决问题，才能够明确定义设计。然后通过再次解决问题，形成一个可执行的方案&lt;br&gt;设计是没有章法的，因为优劣之间的区分十分微妙，难以把握&lt;br&gt;设计是自然而言的，不断经历设计、评估、设计…的过程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;管理复杂度的重要性&quot;&gt;&lt;a href=&quot;#管理复杂度的重要性&quot; class=&quot;headerlink&quot; title=&quot;管理复杂度的重要性&quot;&gt;&lt;/a&gt;管理复杂度的重要性&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;层次性：假如你编写一个新的系统，其中用到很多设计不佳的代码，可编写一个与旧代码交互的层，同时新的层次提供一致的服务，这样就无需与旧代码进行交互&lt;br&gt;标准化：古怪的东西，别人第一次理解越是头疼，尽量标准化，常用的方法，让系统给人熟悉的感觉&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;设计的层次&quot;&gt;&lt;a href=&quot;#设计的层次&quot; class=&quot;headerlink&quot; title=&quot;设计的层次&quot;&gt;&lt;/a&gt;设计的层次&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;系统分解成子系统和包&lt;br&gt;子系统和包分解成类&lt;br&gt;类分解成数据和子程序&lt;br&gt;子程序内部的设计&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;如何分解子系统和包&quot;&gt;&lt;a href=&quot;#如何分解子系统和包&quot; class=&quot;headerlink&quot; title=&quot;如何分解子系统和包&quot;&gt;&lt;/a&gt;如何分解子系统和包&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;如DB，UI，业务规则，命令解析器，报表引擎，并清晰定义各子系统如何使用其他子系统（无循环调用结构）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;信息隐藏&quot;&gt;&lt;a href=&quot;#信息隐藏&quot; class=&quot;headerlink&quot; title=&quot;信息隐藏&quot;&gt;&lt;/a&gt;信息隐藏&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;该Id而用随机字符串在隐藏信息（否则别人可以通过id增加来查找信息）&lt;br&gt;通过隐藏信息来促成好的设计方案&lt;br&gt;信息隐藏使得修改程序更加容易（如多入口程序，需要解决的问题很多）&lt;br&gt;激发和促使某些设计决策的形成&lt;br&gt;有助于设计类的公开接口&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;找出容易变化的区域&quot;&gt;&lt;a href=&quot;#找出容易变化的区域&quot; class=&quot;headerlink&quot; title=&quot;找出容易变化的区域&quot;&gt;&lt;/a&gt;找出容易变化的区域&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;找出容易变化的项目，把容易变化的组件划分成类&lt;br&gt;将容易变化的项目隔离&lt;br&gt;业务规则：是软件频繁变化的根源&lt;br&gt;对硬件的依赖：使容易移植到新的硬件环境&lt;br&gt;输入和输出：比如格式的变化&lt;br&gt;非标准的语言特性：可能下一个版本就变化&lt;br&gt;困难的设计和构建区域：随时可能要重新做&lt;br&gt;状态变量：随系统增大而增多&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;设计实践&quot;&gt;&lt;a href=&quot;#设计实践&quot; class=&quot;headerlink&quot; title=&quot;设计实践&quot;&gt;&lt;/a&gt;设计实践&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;分而治之：没有人的大脑能容纳复杂的程序设计，必须迭代。理解问题-》形成计划》执行计划&lt;br&gt;自上而下的设计：从一般的类开始，分解成具体的类（分解策略）&lt;br&gt;自下而上的设计：上一个设计，过于抽象，难以入手，可先确认系统做什么，找出具体的对象和职责，再找出通用的对象，按适当的方式组织起来，而更上层的工作，或回到自上而下的设计&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;第六章-可以工作的类&quot;&gt;&lt;a href=&quot;#第六章-可以工作的类&quot; class=&quot;headerlink&quot; title=&quot;第六章 可以工作的类&quot;&gt;&lt;/a&gt;第六章 可以工作的类&lt;/h1&gt;</content>
     
     <summary type="html">
     
@@ -576,7 +644,7 @@ sudo iw dev wlan0 connect [网络 SSID] key 0:[WEP 密钥]
     <link href="http://lamkakyun.github.io/2016/06/14/%E4%BD%BF%E7%94%A8hexo%E5%92%8Cgithub-pages%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://lamkakyun.github.io/2016/06/14/使用hexo和github-pages创建博客/</id>
     <published>2016-06-13T16:46:38.000Z</published>
-    <updated>2016-06-30T17:00:25.142Z</updated>
+    <updated>2016-06-30T17:22:21.826Z</updated>
     
     <content type="html">&lt;h2 id=&quot;install-hexo&quot;&gt;&lt;a href=&quot;#install-hexo&quot; class=&quot;headerlink&quot; title=&quot;install hexo&quot;&gt;&lt;/a&gt;install hexo&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;npm install hexo-cli -g
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;usage&quot;&gt;&lt;a href=&quot;#usage&quot; class=&quot;headerlink&quot; title=&quot;usage&quot;&gt;&lt;/a&gt;usage&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;hexo init
@@ -602,7 +670,10 @@ plugins:
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;发现一个问题&quot;&gt;&lt;a href=&quot;#发现一个问题&quot; class=&quot;headerlink&quot; title=&quot;发现一个问题&quot;&gt;&lt;/a&gt;发现一个问题&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;就是我想在其他PC上写博客，出现麻烦了，因为hexo源码并没有push到github，所以离开了原来的PC，就写不了，所以我将在github另外建立一个repository，将源码放在这个repository里面&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&quot;&gt;&lt;a href=&quot;#一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&quot; class=&quot;headerlink&quot; title=&quot;一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&quot;&gt;&lt;/a&gt;一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&lt;/h2&gt;</content>
+&lt;h2 id=&quot;一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&quot;&gt;&lt;a href=&quot;#一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&quot; class=&quot;headerlink&quot; title=&quot;一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&quot;&gt;&lt;/a&gt;一直没有评论系统，所以决定，安装一个评论插件，让大家可以相互交流&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;加入多说评论十分简单，这里就不详细写了&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
     
     <summary type="html">
     
